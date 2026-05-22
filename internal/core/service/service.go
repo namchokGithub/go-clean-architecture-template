@@ -1,9 +1,9 @@
 package service
 
 import (
-	"gitlab.socket9.com/sritrang/super-driver/backend/configs"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/port"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/service/health"
+	"gitlab.company.com/projectname/configs"
+	"gitlab.company.com/projectname/internal/core/port"
+	"gitlab.company.com/projectname/internal/core/service/health"
 )
 
 // Dependencies holds all service-layer dependencies.

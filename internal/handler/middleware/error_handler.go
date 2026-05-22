@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/domain"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/handler/common"
+	"gitlab.company.com/projectname/internal/core/domain"
+	"gitlab.company.com/projectname/internal/handler/common"
 )
 
 // ErrorHandler returns an Echo HTTPErrorHandler that maps domain and handler errors to JSON.

@@ -2,8 +2,8 @@ package handler
 
 import (
 	"github.com/labstack/echo/v4"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/port"
-	internalhealth "gitlab.socket9.com/sritrang/super-driver/backend/internal/handler/health"
+	"gitlab.company.com/projectname/internal/core/port"
+	internalhealth "gitlab.company.com/projectname/internal/handler/health"
 )
 
 // Handler is the aggregate that holds all feature handlers.

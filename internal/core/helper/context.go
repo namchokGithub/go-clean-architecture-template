@@ -3,7 +3,7 @@ package helper
 import (
 	"context"
 
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/domain"
+	"gitlab.company.com/projectname/internal/core/domain"
 )
 
 // GetUserID extracts USER_ID from context. Returns 0 if missing.

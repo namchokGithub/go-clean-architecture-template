@@ -326,7 +326,7 @@ type PostgresConfig struct {
 	Port         string `envconfig:"POSTGRES_PORT" default:"5432"`
 	User         string `envconfig:"POSTGRES_USER" default:"postgres"`
 	Password     string `envconfig:"POSTGRES_PASSWORD"`
-	DBName       string `envconfig:"POSTGRES_DB" default:"superdriver"`
+	DBName       string `envconfig:"POSTGRES_DB" default:"database"`
 	SSLMode      string `envconfig:"POSTGRES_SSL_MODE" default:"disable"`
 	MaxOpenConns int    `envconfig:"POSTGRES_MAX_OPEN_CONNS" default:"10"`
 	MaxIdleConns int    `envconfig:"POSTGRES_MAX_IDLE_CONNS" default:"5"`
@@ -2437,17 +2437,17 @@ OpenAPI contract lives in `docs/openapi/openapi.yaml`.
 
 ## Environment Variables
 
-| Variable        | Default       | Description                              |
-| --------------- | ------------- | ---------------------------------------- |
-| `APP_ENV`       | `local`       | Environment (`local` disables cron jobs) |
-| `APP_PREFIX`    | `SDD`         | Prefix for error codes (e.g.`SDD-4001`)  |
-| `APP_PORT`      | `8080`        | HTTP listen port                         |
-| `LOG_LEVEL`     | `info`        | Logrus level                             |
-| `POSTGRES_HOST` | `localhost`   | PostgreSQL host                          |
-| `POSTGRES_DB`   | `superdriver` | Database name                            |
-| `JWT_SECRET`    | —             | HMAC secret for JWT validation           |
-| `X_API_KEY`     | —             | API key for external routes              |
-| `REDIS_ADDR`    | —             | Redis address (`host:port`)              |
+| Variable        | Default     | Description                              |
+| --------------- | ----------- | ---------------------------------------- |
+| `APP_ENV`       | `local`     | Environment (`local` disables cron jobs) |
+| `APP_PREFIX`    | `SDD`       | Prefix for error codes (e.g.`SDD-4001`)  |
+| `APP_PORT`      | `8080`      | HTTP listen port                         |
+| `LOG_LEVEL`     | `info`      | Logrus level                             |
+| `POSTGRES_HOST` | `localhost` | PostgreSQL host                          |
+| `POSTGRES_DB`   | `database`  | Database name                            |
+| `JWT_SECRET`    | —           | HMAC secret for JWT validation           |
+| `X_API_KEY`     | —           | API key for external routes              |
+| `REDIS_ADDR`    | —           | Redis address (`host:port`)              |
 
 See `.env.example` for the full list.
 

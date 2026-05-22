@@ -3,7 +3,7 @@ package common
 import (
 	"net/http"
 
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/handler/base"
+	"gitlab.company.com/projectname/internal/handler/base"
 )
 
 var appPrefix = "APP"

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/service/health"
+	"gitlab.company.com/projectname/internal/core/service/health"
 )
 
 func TestGetStatus_ReturnsOKWithVersion(t *testing.T) {

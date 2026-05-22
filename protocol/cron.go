@@ -2,7 +2,7 @@ package protocol
 
 import (
 	"github.com/robfig/cron/v3"
-	"gitlab.socket9.com/sritrang/super-driver/backend/pkg/logx"
+	"gitlab.company.com/projectname/pkg/logx"
 )
 
 // StartCron registers and starts background cron jobs.

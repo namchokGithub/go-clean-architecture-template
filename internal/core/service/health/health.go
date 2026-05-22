@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/domain"
+	"gitlab.company.com/projectname/internal/core/domain"
 )
 
 // Dependencies holds construction-time config for the health service.

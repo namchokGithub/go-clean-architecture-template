@@ -1,14 +1,14 @@
 package protocol
 
 import (
-	"gitlab.socket9.com/sritrang/super-driver/backend/configs"
-	"gitlab.socket9.com/sritrang/super-driver/backend/infrastructure"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/service"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/handler"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/handler/common"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/repository"
-	"gitlab.socket9.com/sritrang/super-driver/backend/pkg/logx"
 	"github.com/labstack/echo/v4"
+	"gitlab.company.com/projectname/configs"
+	"gitlab.company.com/projectname/infrastructure"
+	"gitlab.company.com/projectname/internal/core/service"
+	"gitlab.company.com/projectname/internal/handler"
+	"gitlab.company.com/projectname/internal/handler/common"
+	"gitlab.company.com/projectname/internal/repository"
+	"gitlab.company.com/projectname/pkg/logx"
 	"gorm.io/gorm"
 )
 

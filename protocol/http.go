@@ -5,10 +5,10 @@ import (
 
 	"github.com/labstack/echo/v4"
 	echomiddleware "github.com/labstack/echo/v4/middleware"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/constant"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/handler/middleware"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/handler/validator"
-	pkgjwt "gitlab.socket9.com/sritrang/super-driver/backend/pkg/jwt"
+	"gitlab.company.com/projectname/internal/core/constant"
+	"gitlab.company.com/projectname/internal/handler/middleware"
+	"gitlab.company.com/projectname/internal/handler/validator"
+	pkgjwt "gitlab.company.com/projectname/pkg/jwt"
 )
 
 func (a *App) newEcho() *echo.Echo {

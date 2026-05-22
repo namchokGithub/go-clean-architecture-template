@@ -2,8 +2,8 @@ package middleware
 
 import (
 	"github.com/labstack/echo/v4"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/constant"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/handler/common"
+	"gitlab.company.com/projectname/internal/core/constant"
+	"gitlab.company.com/projectname/internal/handler/common"
 )
 
 // APIKeyGuard rejects requests that do not supply the correct X-Api-Key header.

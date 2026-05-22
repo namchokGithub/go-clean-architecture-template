@@ -2,9 +2,9 @@ package cmds
 
 import (
 	"github.com/spf13/cobra"
-	"gitlab.socket9.com/sritrang/super-driver/backend/configs"
-	"gitlab.socket9.com/sritrang/super-driver/backend/pkg/logx"
-	"gitlab.socket9.com/sritrang/super-driver/backend/protocol"
+	"gitlab.company.com/projectname/configs"
+	"gitlab.company.com/projectname/pkg/logx"
+	"gitlab.company.com/projectname/protocol"
 )
 
 var restCmd = &cobra.Command{

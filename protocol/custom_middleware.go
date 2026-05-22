@@ -4,11 +4,11 @@ import (
 	"context"
 
 	"github.com/labstack/echo/v4"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/constant"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/domain"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/handler/common"
-	pkgjwt "gitlab.socket9.com/sritrang/super-driver/backend/pkg/jwt"
-	"gitlab.socket9.com/sritrang/super-driver/backend/pkg/logx"
+	"gitlab.company.com/projectname/internal/core/constant"
+	"gitlab.company.com/projectname/internal/core/domain"
+	"gitlab.company.com/projectname/internal/handler/common"
+	pkgjwt "gitlab.company.com/projectname/pkg/jwt"
+	"gitlab.company.com/projectname/pkg/logx"
 )
 
 // globalContextMiddleware injects Lang, OS, Browser into the request context.

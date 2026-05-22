@@ -1,4 +1,4 @@
-module gitlab.socket9.com/sritrang/super-driver/backend
+module gitlab.company.com/projectname
 
 go 1.25.0
 

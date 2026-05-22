@@ -8,15 +8,15 @@ Go backend service for [project_name] platform. Built with Echo, GORM, PostgreSQ
 HTTP → Echo Router → Middleware → Handler → Service (port) → Repository (port) → GORM → PostgreSQL
 ```
 
-Dependency rule: everything depends inward. Domain has zero knowledge of HTTP or DB. See [ARCHITECTURE.md](/Users/socket9companylimited/Documents/work/superdriver/backend_super_driver/docs/architechture/ARCHITECTURE.md) for full reference.
+Dependency rule: everything depends inward. Domain has zero knowledge of HTTP or DB. See [ARCHITECTURE.md](docs/architechture/ARCHITECTURE.md) for full reference.
 
 ## Engineering Docs
 
-- Architecture: [ARCHITECTURE.md](/Users/socket9companylimited/Documents/work/superdriver/backend_super_driver/docs/architechture/ARCHITECTURE.md)
-- Agent rules: [AGENTS.md](/Users/socket9companylimited/Documents/work/superdriver/backend_super_driver/docs/AGENTS.md)
-- Project context: [CONTEXT.md](/Users/socket9companylimited/Documents/work/superdriver/backend_super_driver/docs/CONTEXT.md)
-- API guidelines: [API_GUIDELINES.md](/Users/socket9companylimited/Documents/work/superdriver/backend_super_driver/docs/engineering/API_GUIDELINES.md)
-- Testing strategy: [TESTING.md](/Users/socket9companylimited/Documents/work/superdriver/backend_super_driver/docs/engineering/TESTING.md)
+- Architecture: [ARCHITECTURE.md](docs/architechture/ARCHITECTURE.md)
+- Agent rules: [AGENTS.md](docs/AGENTS.md)
+- Project context: [CONTEXT.md](docs/CONTEXT.md)
+- API guidelines: [API_GUIDELINES.md](docs/engineering/API_GUIDELINES.md)
+- Testing strategy: [TESTING.md](docs/engineering/TESTING.md)
 
 ## Quick Start
 

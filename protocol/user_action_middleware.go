@@ -2,8 +2,8 @@ package protocol
 
 import (
 	"github.com/labstack/echo/v4"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/domain"
-	"gitlab.socket9.com/sritrang/super-driver/backend/pkg/logx"
+	"gitlab.company.com/projectname/internal/core/domain"
+	"gitlab.company.com/projectname/pkg/logx"
 )
 
 // userActionMiddleware logs every authenticated request.

@@ -3,7 +3,7 @@ package infrastructure
 import (
 	"fmt"
 
-	"gitlab.socket9.com/sritrang/super-driver/backend/configs"
+	"gitlab.company.com/projectname/configs"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

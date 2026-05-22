@@ -3,7 +3,7 @@ package validator
 import (
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/handler/common"
+	"gitlab.company.com/projectname/internal/handler/common"
 )
 
 // CustomValidator adapts go-playground/validator to Echo's Validator interface.

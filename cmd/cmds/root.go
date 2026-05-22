@@ -8,7 +8,7 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:   "server",
-	Short: "Super Driver backend API server",
+	Short: "[project_name] backend API server",
 }
 
 // Execute runs the root cobra command.

@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/core/port"
-	"gitlab.socket9.com/sritrang/super-driver/backend/internal/handler/common"
+	"gitlab.company.com/projectname/internal/core/port"
+	"gitlab.company.com/projectname/internal/handler/common"
 )
 
 // Handler handles HTTP requests for health checks.
